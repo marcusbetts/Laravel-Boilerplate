@@ -1,0 +1,36 @@
+# Composer
+vendor/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 5
+public/storage
+storage/*.key
+.env.*.php
+.env.php
+.env
+/public/hot
+Homestead.json
+Homestead.yaml
+
+# PhpStorm
+.idea
+
+# Ansible
+supplemental/ansible
+
+# Vagrant
+.vagrant
+
+# Tests
+tests/_output/*
+
+# Override generic rules
+!resources/views/vendor/
+!resources/lang/vendor/
+!supplemental/vagrant
+
+
