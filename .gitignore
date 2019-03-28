@@ -9,6 +9,7 @@ yarn-error.log
 # Laravel 5
 public/storage
 storage/*.key
+storage/framework/cache/
 .env.*.php
 .env.php
 .env
@@ -27,10 +28,15 @@ supplemental/ansible
 
 # Tests
 tests/_output/*
+.phpunit.result.cache
 
 # Override generic rules
 !resources/views/vendor/
 !resources/lang/vendor/
 !supplemental/vagrant
 
+\.DS_Store
+
+ignore.*
+*.ignore
 
